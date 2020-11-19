@@ -68,8 +68,14 @@ export const DropItem = ({item}) => {
     listEl = (
       <li className={styles.plainItemContainer}>
         <div className={styles.plainItemTitleWrapper}>
-          {item.title && <h3 className={styles.plainItemTitle}>{item.title}</h3>}
-          {item.githubLink && <IconGithub link={item.link}/>}
+          {item.title &&
+          <h3 className={styles.plainItemTitle}>
+            {item.websiteLink ?
+              <a href={item.websiteLink} target='_blank' rel='noopener noreferrer' className={styles.link}>{item.title}</a>
+              : item.title
+            }
+          </h3>}
+          {item.githubLink && <IconGithub link={item.githubLink}/>}
           {item.websiteLink && <IconWebsite link={item.websiteLink}/>}
           {item.done && <IconDone/>}
         </div>

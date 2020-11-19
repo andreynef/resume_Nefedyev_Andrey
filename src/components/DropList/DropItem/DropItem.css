@@ -20,6 +20,7 @@
 .mainItemTitleWrapper:hover , .subItemTitleWrapper:hover, .link:hover {
     opacity: 0.9;
     transition: .3s;
+    color:orange;
 }
 
 .subItemContainer {
@@ -51,10 +52,8 @@
     width: 100%;
 }
 
-.link{
-    color: orange;
-    font-size: 12px;
-    opacity: 0.7;
+.link:visited {
+    color: black;
 }
 
 .plainItemContainer{
@@ -91,15 +90,12 @@
 /*}*/
 
 @media (max-width: 480px) {
-    .itemTitleWrapper {
+    .mainItemTitleWrapper {
         padding: 10px;
     }
 
-    .itemTitle {
+    .mainItemTitle {
         font-size: 14px;
-    }
-    .subItemContainer h3{
-        font-size: 12px;
     }
 }
 

@@ -36,6 +36,11 @@ const initialState =
                         githubLink: 'https://github.com/andreynef/materialUi-ArcProjectManager',
                         websiteLink:'https://arcpm.nef-an.ru',
                     },
+                    {
+                        title: 'Сайт для "ADHD movers" (MaterialUi, NextJs, Firebase)',
+                        githubLink: 'https://github.com/andreynef/adhd_movers',
+                        websiteLink:'https://adhdmovers.nef-an.ru',
+                    },
                 ],
             },
             {
@@ -49,7 +54,6 @@ const initialState =
                         done: true,
                         inProcess: false,
                         finalWork: true,
-                        finalWorkGithubUrl: 'https://github.com/Coremotor/course-web-layout-2019-diplom-work',
                         comments: [],
                         open: false,
                         body: [
@@ -329,7 +333,6 @@ const initialState =
                         done: false,
                         inProcess: true,
                         finalWork: false,
-                        finalWorkGithubUrl: 'url',
                         comments: [],
                         open: false,
                         body: [
@@ -337,36 +340,36 @@ const initialState =
                                 id: uuidv4(),
                                 title: 'Введение',
                                 inProcess: false,
-                                done: true,
+                                done: false,
                                 open: false,
                                 body: [
                                     {
                                         title: 'Приветствие',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Как работают сайты. Верстка. Backend и Frontend',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Возможности HTML, CSS, JS',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Редактор кода. Codepen',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Работа с devtools',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'VS Code',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Домашняя работа',
-                                        done: true,
+                                        done: false,
                                     },
                                 ],
                             },
@@ -379,31 +382,31 @@ const initialState =
                                 body: [
                                     {
                                         title: 'Ускорение работы. Emmet',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Элементы HTML-разметки. Базовые теги',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Теги картинок и ссылок. Кнопки',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Теги таблиц',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Служебные теги',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Кодстайл HTML',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Домашняя работа',
-                                        done: true,
+                                        done: false,
                                     },
                                 ],
                             },
@@ -416,39 +419,39 @@ const initialState =
                                 body: [
                                     {
                                         title: 'Подключение CSS',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Селекторы. Вес селектора',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Единицы измерения CSS',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Стилизация CSS',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Свойство display',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Блочная модель',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Позиционирование',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Кодстайл CSS',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Домашняя работа',
-                                        done: true,
+                                        done: false,
                                     },
                                 ],
                             },
@@ -461,23 +464,23 @@ const initialState =
                                 body: [
                                     {
                                         title: 'Форматы изображений',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Работа с макетом. Photoshop',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Экспорт изображений',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Работа с макетом. Figma',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Домашняя работа',
-                                        done: true,
+                                        done: false,
                                     },
                                 ],
                             },
@@ -490,35 +493,35 @@ const initialState =
                                 body: [
                                     {
                                         title: 'Интро',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'HTML-семантика',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Разметка макета',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Флексбокс — базовая сетка (часть 1)',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Флексбокс — базовая сетка (часть 2)',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Css-стилизация (часть1)',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Css-стилизация (часть2)',
-                                        done: true,
+                                        done: false,
                                     },
                                     {
                                         title: 'Домашняя работа',
-                                        done: true,
+                                        done: false,
                                     },
                                 ],
                             },
@@ -531,19 +534,19 @@ const initialState =
                                 body: [
                                     {
                                         title: 'Узконаправленные теги',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Теги для аудио и видео. Iframe. Нюансы использовани',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Продвинутое подключение изображений',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Формы',
-                                        done: true,
+                                        done:false,
                                     },
                                 ],
                             },
@@ -551,48 +554,48 @@ const initialState =
                                 id: uuidv4(),
                                 title: 'Продвинутый СSS',
                                 inProcess: false,
-                                done: true,
+                                done:false,
                                 open: false,
                                 body: [
                                     {
                                         title: 'Интро',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Подключение шрифтов',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Комбинаторные селекторы',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Псевдоклассы',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Псевдоэлементы',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Transition',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Transform',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Кастомные свойства',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'CSS-функции',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'БЭМ-именование',
-                                        done: true,
+                                        done:false,
                                     },
                                 ],
                             },
@@ -600,40 +603,40 @@ const initialState =
                                 id: uuidv4(),
                                 title: 'Сетки',
                                 inProcess: false,
-                                done: true,
+                                done:false,
                                 open: false,
                                 body: [
                                     {
                                         title: 'Интро',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Что такое сетка?',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Построение собственной сетки',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Сетки на примере Bootstrap',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Практика: bootstrap',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Пример сложной разработки сетки',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Аутро',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Домашняя работа',
-                                        done: true,
+                                        done:false,
                                     },
                                 ],
                             },
@@ -646,27 +649,27 @@ const initialState =
                                 body: [
                                     {
                                         title: 'Интро',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Виды верстки',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Медиа-запросы. Mobile First',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Медиа-запросы. Практика',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Best Practices',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Pixel Perfect',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Домашняя работа',
@@ -683,23 +686,23 @@ const initialState =
                                 body: [
                                     {
                                         title: 'Интро',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Адаптивные изображения',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Настройка сервера для проверки адаптивности',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Формы на нативных устройствах',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Практика',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Домашняя работа',
@@ -717,31 +720,31 @@ const initialState =
                                 body: [
                                     {
                                         title: 'Интро',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Понятие доступности',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Проверка доступности. Клавиатура',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Проверка доступности. Скринридер',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Влияние семантики на доступность',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'ARIA',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Аутро',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Домашняя работа',
@@ -874,7 +877,6 @@ const initialState =
                         done: true,
                         inProcess: false,
                         finalWork: false,
-                        finalWorkGithubUrl: 'url',
                         comments: [],
                         open: false,
                         body: [
@@ -1523,7 +1525,6 @@ const initialState =
                         done: false,
                         inProcess: true,
                         finalWork: false,
-                        finalWorkGithubUrl: 'url',
                         comments: [],
                         open: false,
                         body: [
@@ -1581,43 +1582,43 @@ const initialState =
                                     },
                                 ],
                             },
-                            // {
-                            //     id: uuidv4(),
-                            //     title: 'Typescript',
-                            //     inProcess: false,
-                            //     done: true,
-                            //     open: false,
-                            //     body: [
-                            //         {
-                            //             title: 'Основы Typescript, Типы',
-                            //             done: true,
-                            //         },
-                            //         {
-                            //             title: 'Работа с массивами',
-                            //             done: true,
-                            //         },
-                            //         {
-                            //             title: 'Работа с объектами и интерфейсами',
-                            //             done: true,
-                            //         },
-                            //         {
-                            //             title: 'Типизация функций и типы ТС',
-                            //             done: true,
-                            //         },
-                            //         {
-                            //             title: 'Generics',
-                            //             done: true,
-                            //         },
-                            //         {
-                            //             title: 'Классы',
-                            //             done: true,
-                            //         },
-                            //         {
-                            //             title: 'Infer, typeof, keyof, Mapped Types',
-                            //             done: true,
-                            //         },
-                            //     ],
-                            // },
+                            {
+                                id: uuidv4(),
+                                title: 'Typescript',
+                                inProcess: false,
+                                done: true,
+                                open: false,
+                                body: [
+                                    {
+                                        title: 'Основы Typescript, Типы',
+                                        done: true,
+                                    },
+                                    {
+                                        title: 'Работа с массивами',
+                                        done: true,
+                                    },
+                                    {
+                                        title: 'Работа с объектами и интерфейсами',
+                                        done: true,
+                                    },
+                                    {
+                                        title: 'Типизация функций и типы ТС',
+                                        done: true,
+                                    },
+                                    {
+                                        title: 'Generics',
+                                        done: true,
+                                    },
+                                    {
+                                        title: 'Классы',
+                                        done: true,
+                                    },
+                                    {
+                                        title: 'Infer, typeof, keyof, Mapped Types',
+                                        done: true,
+                                    },
+                                ],
+                            },
                             {
                                 id: uuidv4(),
                                 title: 'Компоненты на примере новостной карточки Reddit',
@@ -1688,28 +1689,28 @@ const initialState =
                                 id: uuidv4(),
                                 title: 'Больше о компонентах и введение в тестирование компонентов',
                                 inProcess: false,
-                                done: true,
+                                done:false,
                                 open: false,
                                 body: [
                                     {
                                         title: 'Адаптивные и неадаптивные компоненты. Mobile first и desktop first в адаптиве. Разница в подходах',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Дропдаун меню',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Введение в unit тесты и jest',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Пишем тест на реакт компонент Enzyme vs Snapshots',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Вспомогательные компоненты',
-                                        done: true,
+                                        done:false,
                                     },
                                 ],
                             },
@@ -1717,28 +1718,28 @@ const initialState =
                                 id: uuidv4(),
                                 title: 'Работа с публичным API на примере Reddit',
                                 inProcess: false,
-                                done: true,
+                                done:false,
                                 open: false,
                                 body: [
                                     {
                                         title: 'Как работать с API',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Регистрируем аккаунт разработчика на Reddit',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'OAuth2',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Авторизация пользователя',
-                                        done: true,
+                                        done:false,
                                     },
                                     {
                                         title: 'Как структурировать API запросы',
-                                        done: true,
+                                        done:false,
                                     },
                                 ],
                             },
@@ -1813,7 +1814,6 @@ const initialState =
                         done: true,
                         inProcess: false,
                         finalWork: false,
-                        finalWorkGithubUrl: 'url',
                         comments: [],
                         open: false,
                         body: [
@@ -1874,7 +1874,6 @@ const initialState =
                         done: false,
                         inProcess: false,
                         finalWork: false,
-                        finalWorkGithubUrl: 'url',
                         comments: [],
                         open: false,
                         body: [
@@ -1973,19 +1972,6 @@ const initialState =
                 ],
             },
             {
-                title: 'Самообучение вне курса Skillbox',
-                id: uuidv4(),
-                open: false,
-                body:[
-                    {
-                        courses: [
-                            'Книга "Чистый код. Создание, анализ и рефакторинг" Мартин Роберт К.',
-                            'Course Implement Hight Fidelity Designs With MaterialUi and ReactJs.',
-                        ],
-                    },
-                ],
-            },
-            {
                title: 'Образование',
                 id: uuidv4(),
                 open: false,
@@ -2033,18 +2019,25 @@ const initialState =
                 open: false,
                 body:[
                     {
-                        title: 'Банк "Йошкар-Ола" (ПАО)',
-                        yearStart: 2000,
-                        yearEnd: 2001,
-                        position: 'начальник',
-                        duties: 'руководство и контроль работы управления (9 дополнительных офисов, отдел кассовых операций, сектор учета и контроля - 47 сотрудников в подчинении). Кадровый побор, проведение собеседований. Общение с контролирующими органами, ЦБ РФ, представителями организаций проводящих проверки.',
+                        title: 'Выездные мероприятия в Москве',
+                        yearStart: 2017,
+                        yearEnd: 2019,
+                        position: 'официант',
+                        duties: 'обслуживание банкетов',
                     },
                     {
-                        title: 'sddsdsd',
-                        yearStart: 2000,
-                        yearEnd: 2001,
-                        // position: 'руководитель сектора',
-                        duties: 'руководство сектором кредитования физических лиц, проверка заявок по оформлению кредитов, оценка финансового положения заемщиков.',
+                        title: 'Kornpitacksuksa the Creative Thinking School (Thailand)',
+                        yearStart: 2017,
+                        yearEnd: 2017,
+                        position: 'учитель',
+                        duties: 'преподавание английского языка детям 5-10 лет',
+                    },
+                    {
+                        title: 'OOO Тау Груп',
+                        yearStart: 2008,
+                        yearEnd: 2015,
+                        position: 'Совладелец бизнеса (автомойка)',
+                        duties: 'Заказ автохимии, контроль состояния оборудования, контроль качества, общение с клиентами, работа с кассой, составление отчетов.',
                     },
                 ],
             },
