@@ -1,0 +1,68 @@
+.photoContainer {
+    position: relative;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.9);
+    border-radius: 1em;
+    cursor: pointer;
+    height: 220px;
+    width: 220px;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-top: -40px;
+    animation: moveIn 1s ease;
+}
+
+.photoContainer:hover {
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.9);
+    animation: moveOut 1s ease;
+    z-index: 3;
+    margin-top: 0;
+}
+
+.photoCounter {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: #fafafa;
+    font-size: 12px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+
+@media (max-width: 750px) {
+    .photoContainer {
+        margin: 20px auto;
+    }
+}
+
+@keyframes moveOut {
+    from{
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.9);
+        z-index: 0;
+        margin-top: -40px;
+    }
+    50% {
+        transform: translateX(110px);
+    }
+    to {
+        z-index: 3;
+        transform: translateX(0px);
+        margin-top: 0;
+    }
+}
+@keyframes moveIn {
+    from{
+        margin-top: 0;
+        z-index: 3;
+        box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.9);
+    }
+    50% {
+        transform: translateX(110px);
+    }
+    to {
+        transform: translateX(0);
+        margin-top: -40px;
+    }
+}
+

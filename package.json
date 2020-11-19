@@ -1,0 +1,46 @@
+{
+  "name": "resume-nefedyev-andrey",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open --hot"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "react-scripts": "3.4.3",
+    "react-swipeable": "^5.5.1",
+    "uuid": "^8.3.0",
+    "classnames": "^2.2.6",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^4.0.8",
+    "redux": "^4.0.5",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "redux-devtools-extension": "^2.13.8",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "@svgr/webpack": "^5.4.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.6.0",
+    "dotenv-webpack": "^3.0.0",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}

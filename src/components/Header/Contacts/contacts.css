@@ -1,0 +1,108 @@
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 10px;
+}
+
+.contactsWrapper {
+    display: flex;
+    animation: bounce 3s infinite alternate;
+}
+
+.contactsIcons {
+    height: 32px;
+    width: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+    transition: .2s;
+    background-size: cover;
+    opacity: .3;
+}
+
+.contactsIcons:hover {
+    opacity: 1;
+    transition: .2s;
+}
+
+.phoneNumber {
+    background-image: url('img/telephone-phone-svgrepo-com (1).svg');
+    composes: contactsIcons;
+}
+
+.email {
+    background-image: url('img/at.svg');
+    composes: contactsIcons;
+    animation: rotate 5s infinite linear;
+}
+
+.vk {
+    background-image: url('img/vk.svg');
+    composes: contactsIcons;
+    transition: 2s;
+}
+
+.fb {
+    background-image: url('img/github.svg');
+    composes: contactsIcons;
+}
+
+.wa {
+    background-image: url('img/whatsapp.svg');
+    composes: contactsIcons;
+}
+
+.vbr {
+    background-image: url('img/viber-logo-svgrepo-com.svg');
+    composes: contactsIcons;
+}
+
+.tg {
+    background-image: url('img/telegram.svg');
+    composes: contactsIcons;
+}
+
+.sk {
+    background-image: url('img/skype.svg');
+    composes: contactsIcons;
+}
+
+
+/*@media (max-width: 980px) {*/
+/*    .contacts {*/
+/*        !*flex-direction: column;*!*/
+/*        !*padding: 20px 10px;*!*/
+/*    }*/
+
+/*    .contactsWrapper:first-child {*/
+/*        !*margin-bottom: 10px;*!*/
+/*    }*/
+
+/*    .fb {*/
+/*        !*margin-right: 0;*!*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 750px) {*/
+/*    .contacts {*/
+/*        !*flex-direction: row;*!*/
+/*        !*margin-bottom: 10px;*!*/
+/*    }*/
+
+/*    .contactsWrapper:first-child {*/
+/*        !*margin-right: 10px;*!*/
+/*        !*margin-bottom: 0;*!*/
+/*    }*/
+/*}*/
+
+
+@keyframes rotate {
+    from{
+
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+

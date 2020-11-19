@@ -1,0 +1,33 @@
+.paperContainer {
+    max-width: 1024px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 3em;
+    background-size: cover;
+    background: url('../img/paper.jpg'), rgba(255,255,255,0.9);
+    background-blend-mode: color;
+    position:relative;
+}
+.paperContainer::before {
+    position:absolute;
+    top: -8px;
+    left:150px;
+    content: '';
+    width:45px;
+    height: 180px;
+    display: block;
+    padding-left: 5px;
+    background-image: url('../img/clip2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+}
+
+@media (max-width: 750px) {
+    .paperContainer {
+        margin: 0;
+    }
+    .paperContainer::before {
+        display: none;
+    }
+}

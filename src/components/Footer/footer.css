@@ -1,0 +1,32 @@
+.footerContainer {
+    margin-top: 3em;
+    color: black;
+    text-align: center;
+}
+
+.footerText:first-child {
+    margin-right: 20px;
+}
+
+.footerLink:link {
+    color: black;
+}
+
+.footerLink:link {
+    color: black;
+}
+
+.footerLink:visited {
+    color: black;
+}
+
+@media (max-width: 480px) {
+    .footerText {
+        display: block;
+    }
+
+    .footerText:first-child {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+}

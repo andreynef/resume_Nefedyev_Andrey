@@ -1,0 +1,14 @@
+.propositionContainer {
+    margin-bottom: 2em;
+}
+
+.propositionText {
+    text-indent: 1.5em;
+    text-align: justify;
+}
+
+@media (max-width: 760px) {
+    .propositionText {
+        font-size: 12px;
+    }
+}

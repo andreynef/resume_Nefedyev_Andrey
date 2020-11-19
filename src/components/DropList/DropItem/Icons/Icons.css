@@ -1,0 +1,66 @@
+.icon {
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    margin-left: 10px;
+    opacity: .8;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.iconDone {
+    background-image: url("../../../../img/check.svg");
+    composes: icon;
+}
+
+.iconPause {
+    background-image: url("../../../../img/pause.svg");
+    composes: icon;
+    animation: flash 1s infinite alternate ease-in-out;
+}
+
+.iconArrowUp {
+    background-image: url('../../../../img/arrow.svg');
+    transform: rotate(180deg);
+    composes: icon;
+}
+
+.iconArrowDown {
+    background-image: url("../../../../img/arrow.svg");
+    composes: icon;
+}
+
+.iconGithub {
+    background-image: url("../../../../img/github.svg");
+    composes: icon;
+    opacity:0.5;
+}
+
+.iconWebsite {
+    background-image: url("../../../../img/www.svg");
+    composes: icon;
+    opacity:0.5;
+}
+
+.iconWebsite:hover, .iconGithub:hover {
+    opacity:1;
+}
+
+
+@media (max-width: 480px) {
+    .icon {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@keyframes flash {
+    from{
+        opacity: 0.8;
+        transform: scale(1.1);
+    }
+    to {
+        opacity: 0.2;
+        transform: scale(1);
+    }
+}

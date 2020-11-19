@@ -1,0 +1,58 @@
+.selfProjects {
+    margin-bottom: 20px;
+
+    composes: container from '../../../../trash/container.module.css';
+}
+
+.selfProjectsTitleWrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #a8763e;
+    border: 1px solid #a8763e;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-bottom: 10px;
+    padding: 20px;
+    transition: .2s;
+}
+
+.selfProjectsTitleWrapper:hover {
+    background-color: #f7f3e3;
+    color: #a8763e;
+    transition: .2s;
+}
+
+.selfProjectsTitle {
+    font-size: 16px;
+    width: 100%;
+}
+
+.selfProjectsListItem {
+    border: 1px solid #a8763e;
+    background-color: #f7f3e3;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.selfProjectsListItemText {
+    padding-left: 20px;
+}
+
+@media (max-width: 480px) {
+    .selfProjectsTitleWrapper {
+        padding: 10px;
+    }
+
+    .selfProjectsTitle {
+        font-size: 14px;
+    }
+
+    .selfProjectsListItem h3 {
+        font-size: 12px;
+    }
+
+    .selfProjectsListItemText {
+        font-size: 12px;
+    }
+}

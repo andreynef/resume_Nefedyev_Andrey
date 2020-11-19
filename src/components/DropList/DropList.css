@@ -1,0 +1,15 @@
+.droplistContainer {
+    margin-bottom: 20px;
+    position:relative;
+}
+.droplistContainer::before {
+    position:absolute;
+    top: -20px;
+    right:0;
+    content: 'Redux';
+    padding-left: 5px;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+

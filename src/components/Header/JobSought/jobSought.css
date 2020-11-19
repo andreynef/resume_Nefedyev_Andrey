@@ -1,0 +1,29 @@
+.jobSoughtContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.jobSoughtTitle {
+    text-align: center;
+}
+
+.jobSoughtText {
+    font-size: 18px;
+}
+
+/*.jobSoughtLink:link {*/
+/*    color: black;*/
+/*}*/
+
+/*.jobSoughtLink:visited {*/
+/*    color: black;*/
+/*}*/
+
+
+/*@media (max-width: 750px) {*/
+/*    .jobSought {*/
+/*        padding: 0;*/
+/*    }*/
+/*}*/
