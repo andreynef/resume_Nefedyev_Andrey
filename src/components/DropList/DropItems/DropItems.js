@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './DropItem.css';
+import styles from './DropItems.css';
 import {
   IconClose,
   IconDone,
@@ -7,11 +7,11 @@ import {
   IconOpen,
   IconPause,
   IconWebsite,
-} from "./Icons/Icons";
+} from "../../Icons/Icons";
 import {useDispatch, useSelector} from "react-redux";
 import {onTitleClickHandler} from "../../../store/actionCreators/onTitleClickHandler";
 
-export const DropItem = ({item}) => {
+export const DropItems = ({item}) => {
   const dispatch = useDispatch();
   const droplistStateArr = useSelector(state => state.droplist);
   const levelOneArr = droplistStateArr.map(item=>item.title);
@@ -56,7 +56,7 @@ export const DropItem = ({item}) => {
         {item.open &&(
           <ul className={styles.subDroplistContainer}>
             {item.body.map((item, index)=>(
-              <DropItem key={index} item={item}/>
+              <DropItems key={index} item={item}/>
             ))}
           </ul>
         )}

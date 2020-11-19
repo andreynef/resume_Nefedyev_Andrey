@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './header.css';
-import Photo from "./Photo/Photo";
+import {Photo} from "./Photo/Photo";
 import JobSought from "./JobSought/JobSought";
 import Contacts from "./Contacts/Contacts";
 

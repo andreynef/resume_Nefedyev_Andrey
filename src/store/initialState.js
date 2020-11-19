@@ -1811,62 +1811,51 @@ const initialState =
                     {
                         id: uuidv4(),
                         title: 'Система контроля версий Git',
-                        done: true,
                         inProcess: false,
-                        finalWork: false,
-                        comments: [],
-                        open: false,
+                        done: true,
+                        open: true,
                         body: [
                             {
-                                id: uuidv4(),
-                                title: 'Система контроля версий Git',
-                                inProcess: false,
+                                title: 'Версии программного кода',
                                 done: true,
-                                open: true,
-                                body: [
-                                    {
-                                        title: 'Версии программного кода',
-                                        done: true,
-                                    },
-                                    {
-                                        title: 'Установка Git',
-                                        done: true,
-                                    },
-                                    {
-                                        title: 'Индекс и частичные коммиты',
-                                        done: true,
-                                    },
-                                    {
-                                        title: 'Сравнение версий',
-                                        done: true,
-                                    },
-                                    {
-                                        title: 'Отмена изменений и откат версий',
-                                        done: true,
-                                    },
-                                    {
-                                        title: 'Репозитории и коллективная работа',
-                                        done: true,
-                                    },
-                                    {
-                                        title: 'Ветки: создание и управление',
-                                        done: true,
-                                    },
-                                    {
-                                        title: 'Слияние и разрешение конфликтов',
-                                        done: true,
-                                    },
-                                    {
-                                        title: 'Полезные инструменты',
-                                        done: true,
-                                    },
-                                    {
-                                        title: 'Правила работы с Git',
-                                        done: true,
-                                    },
-                                ],
                             },
-                        ]
+                            {
+                                title: 'Установка Git',
+                                done: true,
+                            },
+                            {
+                                title: 'Индекс и частичные коммиты',
+                                done: true,
+                            },
+                            {
+                                title: 'Сравнение версий',
+                                done: true,
+                            },
+                            {
+                                title: 'Отмена изменений и откат версий',
+                                done: true,
+                            },
+                            {
+                                title: 'Репозитории и коллективная работа',
+                                done: true,
+                            },
+                            {
+                                title: 'Ветки: создание и управление',
+                                done: true,
+                            },
+                            {
+                                title: 'Слияние и разрешение конфликтов',
+                                done: true,
+                            },
+                            {
+                                title: 'Полезные инструменты',
+                                done: true,
+                            },
+                            {
+                                title: 'Правила работы с Git',
+                                done: true,
+                            },
+                        ],
                     },
                     {
                         id: uuidv4(),

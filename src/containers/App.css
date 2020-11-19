@@ -3,9 +3,10 @@
     min-width: 320px;
     margin: 0 auto;
     padding: 3em;
-    background-size: cover;
-    background: url('../img/paper.jpg'), rgba(255,255,255,0.9);
-    background-blend-mode: color;
+    background: white;
+    /*background-size: cover;*/
+    /*background: url('../img/paper.jpg'), rgba(255,255,255,0.9);*/
+    /*background-blend-mode: color;*/
     position:relative;
 }
 .paperContainer::before {

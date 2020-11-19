@@ -8,7 +8,7 @@ import store from './store/store';
 ReactDOM.render(
     <React.StrictMode>
         <Provider store={store}>
-          <small className='text'>App created with React Redux and Webpack</small>
+          <small className='text'>App is created using React Redux and Webpack</small>
           <App />
         </Provider>
     </React.StrictMode>,

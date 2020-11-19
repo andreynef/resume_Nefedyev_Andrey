@@ -40,12 +40,6 @@
 .vk {
     background-image: url('img/vk.svg');
     composes: contactsIcons;
-    transition: 2s;
-}
-
-.fb {
-    background-image: url('img/github.svg');
-    composes: contactsIcons;
 }
 
 .wa {
@@ -68,38 +62,8 @@
     composes: contactsIcons;
 }
 
-
-/*@media (max-width: 980px) {*/
-/*    .contacts {*/
-/*        !*flex-direction: column;*!*/
-/*        !*padding: 20px 10px;*!*/
-/*    }*/
-
-/*    .contactsWrapper:first-child {*/
-/*        !*margin-bottom: 10px;*!*/
-/*    }*/
-
-/*    .fb {*/
-/*        !*margin-right: 0;*!*/
-/*    }*/
-/*}*/
-
-/*@media (max-width: 750px) {*/
-/*    .contacts {*/
-/*        !*flex-direction: row;*!*/
-/*        !*margin-bottom: 10px;*!*/
-/*    }*/
-
-/*    .contactsWrapper:first-child {*/
-/*        !*margin-right: 10px;*!*/
-/*        !*margin-bottom: 0;*!*/
-/*    }*/
-/*}*/
-
-
 @keyframes rotate {
     from{
-
     }
     to {
         transform: rotate(360deg);

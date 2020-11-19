@@ -1,7 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const Dotenv = require('dotenv-webpack');
 const GLOBAL_CSS_REGEXP = /\.global\.css$/;
 
 let conf = {
@@ -23,21 +22,21 @@ let conf = {
       {
         test: /\.css$/,
         use: [
-          'style-loader',//style
+          'style-loader',
           {
             loader: 'css-loader',
             options: {
-              modules: {//все css файлы воспринимаются как модули
+              modules: {
                 mode: 'local',
-                localIdentName: '[name]__[local]--[hash:base64:5]',//маркировка названий сгенерированных стилей
+                localIdentName: '[name]__[local]--[hash:base64:5]',
               }
             }
           },
         ],
-        exclude: GLOBAL_CSS_REGEXP // все css кроме GLOBAL_CSS_REGEXP (= main.global.css в папке src). Их обработка б отдельным обычн способом, ниже.
+        exclude: GLOBAL_CSS_REGEXP
       },
       {
-        test: GLOBAL_CSS_REGEXP,// матчить только их. И тжсм сделать в серверной чести но без style
+        test: GLOBAL_CSS_REGEXP,
         use: ["style-loader", "css-loader"]
       },
       {
@@ -56,10 +55,10 @@ let conf = {
     hot: true,
   },
   plugins: [
-    new CleanWebpackPlugin(),//чистка старья/перезапись папки build
-    new HtmlWebpackPlugin({// перезапись html в папку build
-      template: './src/index.html',//копия с шаблона
-      favicon: './src/icon/favicon.png'//вставляет в head
+    new CleanWebpackPlugin(),
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+      favicon: './src/icon/favicon.png'
     }),
   ],
   output: {

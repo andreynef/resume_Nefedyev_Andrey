@@ -9,35 +9,35 @@
 }
 
 .iconDone {
-    background-image: url("../../../../img/check.svg");
+    background-image: url("../../img/check.svg");
     composes: icon;
 }
 
 .iconPause {
-    background-image: url("../../../../img/pause.svg");
+    background-image: url("../../img/pause.svg");
     composes: icon;
     animation: flash 1s infinite alternate ease-in-out;
 }
 
 .iconArrowUp {
-    background-image: url('../../../../img/arrow.svg');
+    background-image: url('../../img/arrow.svg');
     transform: rotate(180deg);
     composes: icon;
 }
 
 .iconArrowDown {
-    background-image: url("../../../../img/arrow.svg");
+    background-image: url("../../img/arrow.svg");
     composes: icon;
 }
 
 .iconGithub {
-    background-image: url("../../../../img/github.svg");
+    background-image: url("../../img/github.svg");
     composes: icon;
     opacity:0.5;
 }
 
 .iconWebsite {
-    background-image: url("../../../../img/www.svg");
+    background-image: url("../../img/www.svg");
     composes: icon;
     opacity:0.5;
 }

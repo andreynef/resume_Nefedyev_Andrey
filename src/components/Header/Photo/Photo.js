@@ -7,7 +7,7 @@ import img8 from '../../../img/8.jpg'
 import img9 from '../../../img/9.jpg'
 import img10 from '../../../img/10.jpg'
 
-const Photo = () => {
+export const Photo = () => {
 
   const photoLinksArr=[
     img1,
@@ -29,15 +29,12 @@ const Photo = () => {
       }
     }
 
-    console.log('photo 1 link:',photoLinksArr[0]);
     return (
         <div className={styles.photoContainer}
              onClick={() => handleClick()}
         >
-            <img src={photoLinksArr[index]} alt="myPhoto" className={styles.img}/>
+            <img src={photoLinksArr[index]} alt="myPhoto" />
             <span className={styles.photoCounter}>{index+1} из {photoLinksArr.length}</span>
         </div>
     )
 }
-
-export default Photo;

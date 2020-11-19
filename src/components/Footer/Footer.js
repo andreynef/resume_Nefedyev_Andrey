@@ -7,7 +7,7 @@ export const Footer = () => {
             <small className={styles.footerText}>&copy; Andrey Nefedyev 2020</small>
 
             <small className={styles.footerText}>
-                <a className={styles.footerLink} href="#" target="_blank"
+                <a className={styles.footerLink} href="https://github.com/andreynef/resume_Nefedyev_Andrey" target="_blank"
                    rel="noopener noreferrer">Код приложения-резюме на Github</a>
             </small>
         </footer>
