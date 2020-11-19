@@ -18,6 +18,10 @@
     margin-top: 0;
 }
 
+.img {
+    width: 100%;
+}
+
 .photoCounter {
     position: absolute;
     bottom: 5%;
@@ -43,9 +47,11 @@
         margin-top: -40px;
     }
     50% {
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.9);
         transform: translateX(110px);
     }
     to {
+        box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.9);
         z-index: 3;
         transform: translateX(0px);
         margin-top: 0;
@@ -53,11 +59,12 @@
 }
 @keyframes moveIn {
     from{
+        box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.9);
         margin-top: 0;
         z-index: 3;
-        box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.9);
     }
     50% {
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.9);
         transform: translateX(110px);
     }
     to {

@@ -2063,17 +2063,17 @@ const initialState =
         ],
         profile:{
             photoLinks:[
-                'https://resume.nef-an.ru/img/1.jpg',
-                'https://resume.nef-an.ru/img/2.jpg',
-                'https://resume.nef-an.ru/img/3.jpg',
-                'https://resume.nef-an.ru/img/4.jpg',
-                'https://resume.nef-an.ru/img/5.jpg',
-                'https://resume.nef-an.ru/img/6.jpg',
-                'https://resume.nef-an.ru/img/7.jpg',
-                'https://resume.nef-an.ru/img/8.jpg',
-                'https://resume.nef-an.ru/img/8.jpg',
-                'https://resume.nef-an.ru/img/9.jpg',
-                'https://resume.nef-an.ru/img/10.jpg',
+                // '../../../img/1.jpg',
+                // 'https://resume.nef-an.ru/img/2.jpg',
+                // 'https://resume.nef-an.ru/img/3.jpg',
+                // 'https://resume.nef-an.ru/img/4.jpg',
+                // 'https://resume.nef-an.ru/img/5.jpg',
+                // 'https://resume.nef-an.ru/img/6.jpg',
+                // 'https://resume.nef-an.ru/img/7.jpg',
+                // 'https://resume.nef-an.ru/img/8.jpg',
+                // 'https://resume.nef-an.ru/img/8.jpg',
+                // 'https://resume.nef-an.ru/img/9.jpg',
+                // 'https://resume.nef-an.ru/img/10.jpg',
             ]
         }
     }
