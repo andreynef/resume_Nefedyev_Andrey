@@ -1689,7 +1689,7 @@ const initialState =
                                 id: uuidv4(),
                                 title: 'Больше о компонентах и введение в тестирование компонентов',
                                 inProcess: false,
-                                done:false,
+                                done:true,
                                 open: false,
                                 body: [
                                     {
@@ -1718,7 +1718,7 @@ const initialState =
                                 id: uuidv4(),
                                 title: 'Работа с публичным API на примере Reddit',
                                 inProcess: false,
-                                done:false,
+                                done:true,
                                 open: false,
                                 body: [
                                     {
@@ -1747,7 +1747,7 @@ const initialState =
                                 id: uuidv4(),
                                 title: 'Введение в Redux на примере Новостной ленты (откроется 08.09.2020)',
                                 inProcess: false,
-                                done: false,
+                                done: true,
                                 open: false,
                                 body: [],
                                 inDevelopment: true,
@@ -1756,7 +1756,7 @@ const initialState =
                                 id: uuidv4(),
                                 title: 'Использование Redux-Thunk на примере бесконечной ленты (откроется 29.09.2020)',
                                 inProcess: false,
-                                done: false,
+                                done: true,
                                 open: false,
                                 body: [],
                                 inDevelopment: true,
@@ -1774,16 +1774,7 @@ const initialState =
                                 id: uuidv4(),
                                 title: 'Формы на примере комментариев и карточки поста (откроется 20.10.2020)',
                                 inProcess: false,
-                                done: false,
-                                open: false,
-                                body: [],
-                                inDevelopment: true,
-                            },
-                            {
-                                id: uuidv4(),
-                                title: 'Оптимизируем приложение (откроется 30.11.2020)',
-                                inProcess: false,
-                                done: false,
+                                done: true,
                                 open: false,
                                 body: [],
                                 inDevelopment: true,
