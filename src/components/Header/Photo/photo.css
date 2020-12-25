@@ -8,10 +8,23 @@
     overflow: hidden;
     margin-left: 50px;
     margin-top: -40px;
-    animation: moveIn 1s ease;
+    /*animation: moveIn 1s ease;*/
 }
 
-.photoContainer:hover {
+/*.photoContainer:hover {*/
+/*    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.9);*/
+/*    animation: moveOut 1s ease;*/
+/*    z-index: 3;*/
+/*    margin-top: 0;*/
+/*}*/
+.photoContainerReview {
+    position: relative;
+    border-radius: 1em;
+    cursor: pointer;
+    height: 220px;
+    width: 220px;
+    overflow: hidden;
+    margin-left: 50px;
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.9);
     animation: moveOut 1s ease;
     z-index: 3;

@@ -10,20 +10,24 @@
     "start": "webpack-dev-server --mode development --open --hot"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "classnames": "^2.2.6",
+    "firebase": "^8.2.1",
+    "material-ui-dropzone": "^3.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.1",
-    "react-scripts": "3.4.3",
-    "react-swipeable": "^5.5.1",
-    "uuid": "^8.3.0",
-    "classnames": "^2.2.6",
     "react-router-dom": "^5.2.0",
     "react-router-redux": "^4.0.8",
+    "react-scripts": "3.4.3",
+    "react-swipeable": "^5.5.1",
     "redux": "^4.0.5",
-    "styled-components": "^5.2.0"
+    "styled-components": "^5.2.0",
+    "uuid": "^8.3.0"
   },
   "devDependencies": {
     "redux-devtools-extension": "^2.13.8",

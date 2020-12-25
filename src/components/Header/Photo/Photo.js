@@ -20,8 +20,10 @@ export const Photo = () => {
 
 
   const [index, setIndex] = useState(0);//no Redux
+  const [review, setReview] = useState(false);
 
     const handleClick = ()=> {
+      setReview(true);
       if (index < (photoLinksArr.length-1)) {
         setIndex(index + 1);
       } else {
@@ -30,7 +32,7 @@ export const Photo = () => {
     }
 
     return (
-        <div className={styles.photoContainer}
+        <div className={review?styles.photoContainerReview:styles.photoContainer}
              onClick={() => handleClick()}
         >
             <img src={photoLinksArr[index]} alt="myPhoto" />
