@@ -19,7 +19,7 @@
 
 .mainItemTitleWrapper:hover , .subItemTitleWrapper:hover, .link:hover {
     opacity: 0.9;
-    transition: .3s;
+    /*transition: .3s;*/
     color:orange;
 }
 

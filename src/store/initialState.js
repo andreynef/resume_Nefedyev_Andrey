@@ -7,6 +7,11 @@ const initialState =
                 title: 'Портфолио',
                 body: [
                     {
+                        title: 'Skillbox. React. Reddit App (React,Redux,Webpack,Express,API,SSR). В доработке',
+                        githubLink: 'https://github.com/andreynef/react-reddit',
+                        websiteLink:'https://react-reddit-app-andrey.herokuapp.com/',
+                    },
+                    {
                         title: 'Skillbox. Дипломная работа по JS. Unsplash Photo App (React,Redux,Webpack)',
                         githubLink: 'https://github.com/andreynef/jsDiplomaRedux',
                         websiteLink:'https://jsdiploma.nef-an.ru/',
@@ -1999,11 +2004,11 @@ const initialState =
                 open: false,
                 body:[
                     {
-                        title: 'Выездные мероприятия в Москве',
+                        title: 'Разное. (онлайн репетиторство, торговля на бирже, подработка на выездных мероприятих в Москве)',
                         yearStart: 2017,
-                        yearEnd: 2019,
-                        position: 'официант',
-                        duties: 'обслуживание банкетов',
+                        yearEnd: 2020,
+                        position: 'разное',
+                        duties: 'разное',
                     },
                     {
                         title: 'Kornpitacksuksa the Creative Thinking School (Thailand)',
