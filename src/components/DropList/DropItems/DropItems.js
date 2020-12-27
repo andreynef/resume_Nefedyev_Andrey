@@ -8,6 +8,12 @@ import {
   IconPause,
   IconWebsite,
 } from "../../Icons/Icons";
+import site1 from '../../../img/reddit.png'
+import site2 from '../../../img/html.png'
+import site3 from '../../../img/affinage.png'
+import site4 from '../../../img/news.png'
+import site5 from '../../../img/arc.png'
+import site6 from '../../../img/unsplash.png'
 import {useDispatch, useSelector} from "react-redux";
 import {onTitleClickHandler} from "../../../store/actionCreators/onTitleClickHandler";
 
@@ -30,7 +36,17 @@ export const DropItems = ({item}) => {
           className={isLevelOne(item.title) ? styles.mainItemTitleWrapper: styles.subItemTitleWrapper}
           onClick={() => {dispatch(onTitleClickHandler(item.id));}}
         >
-          <h2 className={styles.itemTitle} style={{fontSize:item.title==='Портфолио'&&'23px', fontWeight:item.title==='Портфолио'&&600}}>{item.title}</h2>
+          <h2 className={styles.itemTitle} style={{fontSize:item.title==='Портфолио'&&'23px', fontWeight:item.title==='Портфолио'&&600}}>{item.title} </h2>
+          {item.title==='Портфолио'&&(
+            <>
+            <img src={site1} alt={'pic'} style={{height:'40px', width: '60px', borderRadius:'3px', marginLeft:'1em'}}/>
+            <img src={site2} alt={'pic'} style={{height:'40px', width: '60px', borderRadius:'3px', marginLeft:'1em'}}/>
+            <img src={site3} alt={'pic'} style={{height:'40px', width: '60px', borderRadius:'3px', marginLeft:'1em'}}/>
+            <img src={site4} alt={'pic'} style={{height:'40px', width: '60px', borderRadius:'3px', marginLeft:'1em'}}/>
+            <img src={site5} alt={'pic'} style={{height:'40px', width: '60px', borderRadius:'3px', marginLeft:'1em'}}/>
+            <img src={site6} alt={'pic'} style={{height:'40px', width: '60px', borderRadius:'3px', marginLeft:'1em'}}/>
+            </>
+          )}
           {item.done && item.finalWorkGithubUrl &&
             <a
               className={styles.link}
