@@ -14,7 +14,6 @@ export const Photo = () => {
     img2,
     img4,
     img8,
-    img10,
     img9,
   ]
 
