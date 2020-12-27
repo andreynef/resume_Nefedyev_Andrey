@@ -7,7 +7,7 @@ const initialState =
                 title: 'Портфолио',
                 body: [
                     {
-                        title: 'Skillbox. React. Reddit App (React,Redux,Webpack,Express,API,SSR). В доработке',
+                        title: 'Skillbox. React. Reddit App (Express,API,SSR,TS). В доработке',
                         githubLink: 'https://github.com/andreynef/react-reddit',
                         websiteLink:'https://react-reddit-app-andrey.herokuapp.com/',
                     },
