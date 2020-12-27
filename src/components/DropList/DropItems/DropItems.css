@@ -16,6 +16,18 @@
     padding: 20px;
     transition: .5s;
 }
+.sitePics {
+    display: flex;
+    position: absolute;
+    right: 70px;
+}
+.sitePics img{
+    height:40px;
+    width: 60px;
+    border-radius:3px;
+    margin-left:1em;
+
+}
 
 .mainItemTitleWrapper:hover , .subItemTitleWrapper:hover, .link:hover {
     opacity: 0.9;
@@ -97,6 +109,11 @@
 
     .mainItemTitle {
         font-size: 14px;
+    }
+}
+@media (max-width: 1024px) {
+    .sitePics{
+        display:none;
     }
 }
 
