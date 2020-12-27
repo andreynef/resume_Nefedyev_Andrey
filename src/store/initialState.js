@@ -7,7 +7,7 @@ const initialState =
                 title: 'Портфолио',
                 body: [
                     {
-                        title: 'Skillbox. React. Reddit App (Express,API,SSR,TS). В доработке',
+                        title: 'Skillbox. Курс React. Reddit App (Express,API,SSR,TS). В доработке',
                         githubLink: 'https://github.com/andreynef/react-reddit',
                         websiteLink:'https://react-reddit-app-andrey.herokuapp.com/',
                     },
@@ -17,19 +17,14 @@ const initialState =
                         websiteLink:'https://jsdiploma.nef-an.ru/',
                     },
                     {
-                        title: 'Skillbox. Дипломная работа по верстке. Визитка',
-                        githubLink: 'https://github.com/andreynef/VerstkaDiploma-skillbox-',
-                        websiteLink:'https://skillbox-bcard.nef-an.ru/',
+                        title: 'Сайт для "ADHD movers" (MaterialUi, NextJs, Firebase)',
+                        githubLink: 'https://github.com/andreynef/adhd_movers',
+                        websiteLink:'https://adhdmovers.nef-an.ru',
                     },
                     {
-                        title: 'SkillBox. HTML верстка, адаптив, новости',
-                        githubLink: 'https://github.com/andreynef/VerstkaNewsAdaptive-skillbox-',
-                        websiteLink:'https://skillbox-news.nef-an.ru/',
-                    },
-                    {
-                        title: 'Тестовое задание, HTML верстка',
-                        githubLink: 'https://github.com/andreynef/Affinage-testTask',
-                        websiteLink:'https://affinage.nef-an.ru',
+                        title: 'Сайт для мувинга (MaterialUi, NextJs, Firebase)',
+                        githubLink: null,
+                        websiteLink:'https://konstant-movers.com',
                     },
                     {
                         title: 'Курс по MaterialUi - React, Router. Итоговая работа',
@@ -42,9 +37,19 @@ const initialState =
                         websiteLink:'https://arcpm.nef-an.ru',
                     },
                     {
-                        title: 'Сайт для "ADHD movers" (MaterialUi, NextJs, Firebase)',
-                        githubLink: 'https://github.com/andreynef/adhd_movers',
-                        websiteLink:'https://adhdmovers.nef-an.ru',
+                        title: 'Тестовое задание, HTML верстка',
+                        githubLink: 'https://github.com/andreynef/Affinage-testTask',
+                        websiteLink:'https://affinage.nef-an.ru',
+                    },
+                    {
+                        title: 'Skillbox. Дипломная работа по верстке. Визитка',
+                        githubLink: 'https://github.com/andreynef/VerstkaDiploma-skillbox-',
+                        websiteLink:'https://skillbox-bcard.nef-an.ru/',
+                    },
+                    {
+                        title: 'SkillBox. HTML верстка, адаптив, новости',
+                        githubLink: 'https://github.com/andreynef/VerstkaNewsAdaptive-skillbox-',
+                        websiteLink:'https://skillbox-news.nef-an.ru/',
                     },
                 ],
             },

@@ -47,6 +47,11 @@
     .photoContainer {
         margin: 20px auto;
     }
+    .photoContainerReview {/*отмена анимации*/
+        animation: none;
+        margin: 20px auto 25px auto;
+    }
+
 }
 
 @keyframes moveOut {

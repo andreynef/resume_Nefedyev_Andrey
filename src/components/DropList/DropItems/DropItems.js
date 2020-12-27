@@ -30,7 +30,7 @@ export const DropItems = ({item}) => {
           className={isLevelOne(item.title) ? styles.mainItemTitleWrapper: styles.subItemTitleWrapper}
           onClick={() => {dispatch(onTitleClickHandler(item.id));}}
         >
-          <h2 className={styles.itemTitle}>{item.title}</h2>
+          <h2 className={styles.itemTitle} style={{fontSize:item.title==='Портфолио'&&'23px', fontWeight:item.title==='Портфолио'&&600}}>{item.title}</h2>
           {item.done && item.finalWorkGithubUrl &&
             <a
               className={styles.link}

@@ -32,3 +32,11 @@
         display: none;
     }
 }
+@media (max-width: 400px) {
+    .paperContainer {
+        padding: 3em 0;
+    }
+    .paperContainer::before {
+        display: none;
+    }
+}
