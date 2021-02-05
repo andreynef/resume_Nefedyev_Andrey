@@ -27,6 +27,7 @@ const Stack = () => {
             <ul className={styles.itemList}>
               <li>React.js</li>
               <li>Typescript.js</li>
+              <li>Vue.js</li>
             </ul>
           </div>
 
