@@ -108,6 +108,7 @@ export const DropItems = ({item}) => {
         {item.grade && <p className={styles.plainItemText}>Академическая степень: {item.grade}</p>}
         {item.faculty && <p className={styles.plainItemText}>Факультет: {item.faculty}</p>}
         {item.specialization && <p className={styles.plainItemText}>Специализация: {item.specialization}</p>}
+        {item.about && <p className={styles.plainItemText}>{item.about}</p>}
         {item.sport && <p className={styles.plainItemText}>Спорт: {item.sport}</p>}
         {item.relax && <p className={styles.plainItemText}>Отдых: {item.relax}</p>}
         {item.freeTime && <p className={styles.plainItemText}>Свободное время: {item.freeTime}</p>}
