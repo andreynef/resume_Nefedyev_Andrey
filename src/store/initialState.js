@@ -7,9 +7,9 @@ const initialState =
                 title: 'Портфолио',
                 body: [
                     {
-                        title: 'Skillbox. Курс Vue. Интернет магазин. В доработке (пишу диплом)',
-                        githubLink: 'https://github.com/andreynef/vue-skillbox',
-                        websiteLink:'https://andreynef.github.io/vue-skillbox/#/',
+                        title: 'Skillbox. Курс Vue. Интернет магазин.',
+                        githubLink: 'https://github.com/andreynef/vueOnlineStoreSkillbox',
+                        websiteLink:'https://andreynef.github.io/vue-skillbox-deploy/',
                     },
                     {
                         title: 'Skillbox. Курс React. Reddit App (Express,API,SSR,TS). В доработке',
